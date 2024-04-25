@@ -1,22 +1,23 @@
 # BookManagementAPI
 
-Steps:
-npm install
-node index.js
+### Steps:
+- `npm install`
+- `node index.js`
 
-API endoints:
-/register - post
-/login - post
-/books - post
-/books - post (with query as well to filter)
-/book/:id - put
-/book/:id - delete
+### API Endpoints:
+- `/register` - POST
+- `/login` - POST
+- `/books` - POST
+- `/books` - POST (with query as well to filter)
+- `/book/:id` - PUT
+- `/book/:id` - DELETE
 
-Libraries:
-zod - input validation
-jwt - authorization
-bcrypt - hasing password
-mongoose, express
+### Libraries:
+- `zod` - input validation
+- `jwt` - authorization
+- `bcrypt` - hashing password
+- `mongoose`, `express`
+
 
 
 ![1](https://github.com/gauravjaincr7/BookManagementAPI/assets/61162740/2cd8c725-3d72-4d54-a685-4a2e651fd073)
